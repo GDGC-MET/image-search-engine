@@ -19,13 +19,13 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.serachbox {
+.searchbox {
     display: flex;
     justify-content: center;
     margin: 30px 0;
 }
 
-.serachbox input {
+.searchbox input {
     width: 400px;
     height: 60px;
     border-radius: 30px;
@@ -37,13 +37,13 @@ h1 {
     background-color: #fff3e6;
 }
 
-.serachbox input:focus {
+.searchbox input:focus {
     border-color: #007bff;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-.serachbox button {
+.searchbox button {
     height: 60px;
     width: 150px;
     font-size: 20px;
@@ -56,8 +56,26 @@ h1 {
     border: none;
 }
 
-.serachbox button:hover {
+.searchbox button:hover {
     background-color: #c93400;
+}
+
+.search-history {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#historyList {
+    list-style-type: none;
+}
+
+#historyList li {
+    cursor: pointer;
+    color: #007bff;
+}
+
+#historyList li:hover {
+    text-decoration: underline;
 }
 
 .imagesec {
@@ -100,7 +118,7 @@ img:hover {
     background-color: #0056b3;
 }
 
-.showmoew {
+.showmore {
     display: flex;
     align-items: center;
     justify-content: center;
